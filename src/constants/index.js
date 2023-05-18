@@ -121,20 +121,20 @@ const experiences = [
   {
     title: "Frontend Development Partner",
     company_name: "Richview",
-    icon: starbucks,
+    icon: "https://media.licdn.com/dms/image/C4E0BAQGhI8PRvyM7Rg/company-logo_100_100/0/1676227647227?e=1692230400&v=beta&t=j7nuoUg6h9KOJ8bq3YkbKALOIbSbw9rnZ6_-Z6C3T8o",
     iconBg: "#383E56",
     date: "April 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining AI web applications using Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Work through software lifecycle through Azure DevOps and cloud.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Frontend Fullstack Developer",
     company_name: "Mohn Technology",
-    icon: tesla,
+    icon: "https://media.licdn.com/dms/image/C4E0BAQE6E7ex90I9JQ/company-logo_100_100/0/1592485032734?e=1692230400&v=beta&t=MhNjqo0uk5ag9BlrJNVf78F8PjN1CWrpo3DLwgpu4x4",
     iconBg: "#E6DEDD",
     date: "Oct 2022 - June 2023",
     points: [
@@ -149,7 +149,7 @@ const experiences = [
   {
     title: "Web Development Consultant",
     company_name: "RobustSys",
-    icon: shopify,
+    icon: "https://media.licdn.com/dms/image/C4D0BAQFpZKmOkbnHCg/company-logo_100_100/0/1679904327467?e=1692230400&v=beta&t=SsMiTUEbKh6rkfy7HRAV27ln4MBPdjQBTHCTvUGXQmw",
     iconBg: "#383E56",
     date: "Mar 2023 - Apr 2023",
     points: [
@@ -160,7 +160,7 @@ const experiences = [
   {
     title: "Mobile Engineer (Quality Assurance focus)",
     company_name: "Samsung",
-    icon: meta,
+    icon: "https://media.licdn.com/dms/image/C560BAQFsvADfvcJi_A/company-logo_100_100/0/1676336400130?e=1692230400&v=beta&t=2RdrTqGuxpig3-zm5fjFdiApIwoeTtCqhbPsrTfaPzE",
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Oct 2022",
     points: [
@@ -174,7 +174,7 @@ const experiences = [
   {
     title: "Git Version Control Team Lead",
     company_name: "Texas Instruments",
-    icon: starbucks,
+    icon: "https://media.licdn.com/dms/image/C4D0BAQHjRIWKaz-XKQ/company-logo_100_100/0/1590788980221?e=1692230400&v=beta&t=6WS_Hp46izo0QIt1X35ffhynnmP9ouwwqN22q4HS3lQ",
     iconBg: "#383E56",
     date: "Jan 2022 - May 2022",
     points: [
@@ -185,7 +185,7 @@ const experiences = [
   {
     title: "Frontend Web Development Instructor (including freelance)",
     company_name: "Rex Academy",
-    icon: tesla,
+    icon: "https://media.licdn.com/dms/image/C560BAQHiAfLfZvl1EA/company-logo_100_100/0/1598340014995?e=1692230400&v=beta&t=jk05J91w1fO-_0gqpkaV8DVxwBAbdSuYgoRLByHqOUg",
     iconBg: "#E6DEDD",
     date: "Aug 2019 - Dec 2020",
     points: [
@@ -197,9 +197,9 @@ const experiences = [
   {
     title: "Accessibility & Teaching Assistance",
     company_name: "Arlington Independent School District",
-    icon: shopify,
+    icon: "https://media.licdn.com/dms/image/C4D0BAQG0lbikZ1Bs9w/company-logo_100_100/0/1519895072821?e=1692230400&v=beta&t=z6ijBWuR8bsgnNq3Y_XaLt1M2Agg196IXlPbTh_g-dE",
     iconBg: "#383E56",
-    date: "Mar 2023 - Apr 2023",
+    date: "Aug 2016 - Jul 2018",
     points: [
       "Highly values the importance of accessibility",
       "Worked with screen readers, text-to-speech, keyboard navigation, high contrast mode",
