@@ -40,18 +40,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Who Am I?</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Presenting a highly effective communicator and strategic leader with a genuine passion for delivering remarkable user experiences. With a teaching background, I possess the unique ability to simplify intricate concepts and connect with diverse audiences effortlessly. Attention to detail is my strength, reflected in meticulous and impactful written communication. I excel in building networks across industries, fostering lasting relationships and promoting collaborative success. Get ready to experience a dedicated professional who seamlessly combines expertise, innovation, and unwavering commitment to customer satisfaction.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
