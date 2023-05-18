@@ -19,9 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  homepage,
+  teashop, 
+  formatcamera, 
+  pinkcalculator, 
+  goldstarsurvey, 
+  kittenwebsite,
   threejs,
 } from "../assets";
 
@@ -276,7 +279,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: homepage,
     source_code_link: "https://github.com/ZeraAI/ZeraAI.github.io",
     live_demo_link: "https://zenpark.co",
   },
@@ -286,11 +289,11 @@ const projects = [
       "User friendly and built with wireframes. High ticket sales pitch to increase conversion rate.",
     tags: [
       {
-        name: "html",
+        name: "responsive on mobile",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "pure html/css",
         color: "green-text-gradient",
       },
       {
@@ -298,95 +301,83 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: teashop,
     source_code_link: "https://github.com/ZeraAI/tea-shops-in-bergen",
     live_demo_link: "https://bergenteashop.netlify.app/",
   },
   {
     name: "Automatic Camera",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Very nice-looking camera website",
     tags: [
       {
-        name: "nextjs",
+        name: "realistic",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nice to look at",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: formatcamera,
     source_code_link: "https://github.com/ZeraAI/Fotomatic-website",
     live_demo_link: "https://fotomatic-camera.netlify.app/",
   },
   {
     name: "The Pink Calculator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Very nice-looking calculator",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "gradient colors",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: pinkcalculator,
     source_code_link: "https://github.com/ZeraAI/The-Pink-Calculator",
     live_demo_link: "https://thepinkcalculator.netlify.app/",
   },
   {
     name: "Survey Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A survey website built as a challenge, built responsively for iPhone 6 and Google Pixel models.",
     tags: [
       {
-        name: "nextjs",
+        name: "responsive on mobile",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "pure html/css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "glowing star rating system",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: goldstarsurvey,
     source_code_link: "https://github.com/ZeraAI/survey-website-for-feedback",
     live_demo_link: "https://feedbacksurvey.netlify.app/",
   },
   {
     name: "Website for Kittens",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A special website built for cat lovers, created by ChatGPT to test its capabilities",
     tags: [
       {
-        name: "nextjs",
+        name: "GPT-generated",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "cute",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: kittenwebsite,
     source_code_link: "https://github.com/ZeraAI/website-dedicated-to-cats",
     live_demo_link: "https://thecatwebsite.netlify.app/",
   },
