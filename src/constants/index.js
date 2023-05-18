@@ -217,34 +217,58 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Zen is among the best students I’ve had the pleasure of interacting with in my ten years of education. He has earned the admiration of his peers, educators, and administrators. I am confident he is going to achieve great things.",
+    name: "Jeff Casper",
+    designation: "Professor",
+    company: "Dallas College",
+    image: "https://pbs.twimg.com/profile_images/1473369043109355530/C05pMsyB_400x400.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Zen has an unbridled enthusiasm for learning, and is constantly working to improve his technical skills. However, there is more to Zen than his intellect. He has a uniquely compassionate outlook on cultural and societal issues. Zen is someone who can provide leadership for a team as well as accomplish things on his own.",
+    name: "Karen Mazidi",
+    designation: "Machine Learning Professor",
+    company: "The University of Texas at Dallas",
+    image: "https://media.licdn.com/dms/image/C4E03AQH9BWgSGbgChw/profile-displayphoto-shrink_400_400/0/1609876702961?e=1689811200&v=beta&t=ADMXr40PiIudLwMZEmvqPruz2AwdQmPrHWBwVDAuo4o",
+  },
+  {
+    testimonial:
+      "I wholeheartedly recommend Zen based on his exceptional communication skills, adeptly conveying complex ideas to diverse audiences. Zen consistently prioritizes exceptional user experiences, fostering intuitive and enjoyable interactions. His remarkable ability to build valuable partnerships across industries is an invaluable asset.",
+    name: "Alan Ng",
+    designation: "Co-Founder",
+    company: "Gullover",
+    image: "/src/assets/alanng.jpg",
+  },
+  {
+    testimonial:
+      "Zen's strong work ethic and years of public experience truly set him apart. His dedication to delivering high-quality content and ability to adapt to different subjects and industries are qualities I deeply respect. With Zen's exceptional skills and commitment to producing outstanding written work, I have no doubt that he will continue to excel and make a significant impact.",
+    name: "Ankit Khare",
+    designation: "Developer Relations Leader",
+    company: "Twelve Labs",
+    image: "https://media.licdn.com/dms/image/D5603AQFOx8wRV3iwgA/profile-displayphoto-shrink_400_400/0/1680668887983?e=1689811200&v=beta&t=D5-H7VBnQif2VBUdol4PNnKfpKDjS01nyYgs9m_eMcY",
+  },
+  {
+    testimonial:
+      "Meow meow meow meow. Meow? Meow meow! Meow meow... meow. (translation: He treats me very well and gives me lots of wet food and treats)",
+    name: "Dr. Rudolf",
+    designation: "Doctor Feline",
+    company: "Meowversity of Technology",
+    image: "/src/assets/Rudolf.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "This Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My 3D personal website built to showcase my personality. The website is hosted through GitHub with the domain provided by Namecheap. Have you tried rotating the plane?",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -253,19 +277,20 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ZeraAI/ZeraAI.github.io",
+    live_demo_link: "https://zenpark.co",
   },
   {
-    name: "Job IT",
+    name: "Tea Shop in Bergen, Norway",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "User friendly and built with wireframes. High ticket sales pitch to increase conversion rate.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
@@ -274,10 +299,11 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ZeraAI/tea-shops-in-bergen",
+    live_demo_link: "https://bergenteashop.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Automatic Camera",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -295,7 +321,74 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ZeraAI/Fotomatic-website",
+    live_demo_link: "https://fotomatic-camera.netlify.app/",
+  },
+  {
+    name: "The Pink Calculator",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/ZeraAI/The-Pink-Calculator",
+    live_demo_link: "https://thepinkcalculator.netlify.app/",
+  },
+  {
+    name: "Survey Website",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/ZeraAI/survey-website-for-feedback",
+    live_demo_link: "https://feedbacksurvey.netlify.app/",
+  },
+  {
+    name: "Website for Kittens",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/ZeraAI/website-dedicated-to-cats",
+    live_demo_link: "https://thecatwebsite.netlify.app/",
   },
 ];
 
