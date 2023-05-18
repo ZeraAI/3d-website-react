@@ -84,8 +84,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Azure",
+    icon: "https://media.licdn.com/dms/image/C4D07AQFzZ4nSNaZMHg/group-logo_image-shrink_92x92/0/1630997456959?e=1685041200&v=beta&t=Ev72NkFVFiU940jGb8WUCSLxue8HPIF80qrmDPmIaEE",
   },
   {
     name: "Tailwind CSS",
@@ -96,12 +96,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "C#",
+    icon: "https://media.licdn.com/dms/image/C4D07AQHmN1_fJVToBw/group-logo_image-shrink_92x92/0/1631373638658?e=1685041200&v=beta&t=yu-yMARMa57m1-pA38KgKi0OH3dfVklZPJfKYVLlca4",
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: "https://media.licdn.com/dms/image/D4E07AQEsKBDidLaKwA/group-logo_image-shrink_92x92/0/1659425140396?e=1685041200&v=beta&t=0sbx3uJkDibo59lVDlw_nwxBpHnT0lKrorxkyCB5deg",
   },
   {
     name: "git",
@@ -112,8 +112,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Ubuntu",
+    icon: "https://media.licdn.com/dms/image/C560BAQEbIYAkAURcYw/company-logo_200_200/0/1650566106882?e=1692230400&v=beta&t=-EKl9scc2MidRje09svyp9JZEo561HCZC0-k4VNHOFE",
   },
 ];
 
